@@ -101,7 +101,6 @@ public class DeleteDropZoneView extends View {
 		String removeString = getResources().getString(R.string.removeItem);
 
 		initTrashIcon();
-
 		textPaintStraight.getTextBounds(removeString, 0, 6, bounds);
 
 		int proportion = 3 * measuredHeight / 4;

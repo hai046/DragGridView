@@ -500,6 +500,15 @@ public class DragDropGrid extends ViewGroup implements OnTouchListener, OnLongCl
         v.startAnimation( scale );
     }
 
+    /**
+     * ==========================================<BR>
+     * 功能：操作 <BR>
+     * 时间：2013-3-1 下午5:57:42 <BR>
+     * ========================================== <BR>
+     * 参数：
+     * 
+     * @param targetLocationInGrid
+     */
     private void animateGap(int targetLocationInGrid) {
         int viewAtPosition = currentViewAtPosition( targetLocationInGrid );
 
