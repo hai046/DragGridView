@@ -944,6 +944,16 @@ public class DragDropGrid extends ViewGroup implements OnTouchListener, OnLongCl
         this.container = container;
     }
 
+    /**
+     * ==========================================<BR>
+     * 功能：获取view目标的位置				<BR>	
+     * 时间：2013-3-1  下午6:02:04	<BR> 
+     *==========================================
+     *<BR>参数：
+     *@param pageIndex
+     *@param childIndex
+     *@return
+     */
     private int positionOfItem(int pageIndex, int childIndex) {
         int currentGlobalIndex = 0;
         for (int currentPageIndex = 0; currentPageIndex < adapter.pageCount( ); currentPageIndex++) {
